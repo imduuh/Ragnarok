@@ -1,0 +1,7 @@
+name: String-Ragnarok
+version: 1.0
+author: [TantsZ]
+main: me.tantsz.ragnarok.Main
+
+commands:
+  ragnarok:

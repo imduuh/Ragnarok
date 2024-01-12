@@ -1,0 +1,6 @@
+Config:
+  MySQL:
+    Host: localhost
+    User: root
+    DB: ragnarok
+    Password: 'soufoda12A'
