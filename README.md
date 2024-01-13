@@ -1,2 +1,3 @@
-# Ragnarok
- 
+# Ragnarök
+
+**Ragnarök** é um evento um contra todos. Durante o evento, os jogadores recebem recompensas por cada adversário que derrotam, sendo possível obter uma bonificação adicional se o jogador possuir VIP ou estiver com a tag "Mito". Desenvolvi esse plugin com o objetivo de estimular o PVP no servidor, especialmente incentivando a participação de quem possui a tag "Mito". O plugin possui suporte para banco de dados tanto por SQLite quanto por MySQL, sendo totalmente configurável.
