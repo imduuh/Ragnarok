@@ -1,6 +1,80 @@
-Config:
-  MySQL:
-    Host: localhost
-    User: root
-    DB: ragnarok
-    Password: 'soufoda12A'
+MySQL:
+  Ativado: false
+  Usuario: 'user'
+  Senha: 'pass'
+  Database: 'ragnarok'
+  Host: 'localhost'
+
+Premiacoes:
+  Valor: 300
+  Tag: '&c[RAGNARÖK]'
+  UltimoVencedor: 'TantsZD3US'
+  
+Bonus:
+  VIP: 200
+  Mito: 500
+  
+TopKills:
+  Quantidade: 10
+  Cabecalho: '&4&lRAGNARÖK &8» &fTOP 10 jogadores que mais mataram no evento:'
+  Linhas: '&c{posicao}. &f{player} &7- &c{kills} kills.'
+
+Mensagens:
+  Ajuda:
+  - '&4&lRAGNARÖK &8» &7Comandos do evento:'
+  - '&c/ragnarok entrar &7- &fEntra no evento.'
+  - '&c/ragnarok info &7- &fMostra as recompensas ao ganhar o evento.'
+  - '&c/ragnarok topkills &7- &fMostra o TOP com os jogadores que mais mataram no evento.'
+
+  AjudaAdmin:
+  - '&4/ragnarok iniciar &7- &fInicia o evento.'
+  - '&4/ragnarok cancelar &7- &fCancela o evento.'
+  - '&4/ragnarok setarena &7- &fDefine a arena que irá acontecer o evento.'
+  - '&4/ragnarok setsaida &7- &fDefine a saída do evento.'
+  
+  Iniciado:
+  - ' '
+  - '&4&lRAGNARÖK &8» &fEvento &cRAGNARÖK &finiciado!'
+  - '&4&lRAGNARÖK &8» &fPara participar, use: &c/ragnarok entrar'
+  - '&4&lRAGNARÖK &8» &fPara mais informações sobre o evento, use: &c/ragnarok info'
+  - '&4&lRAGNARÖK &8» &c* FREE KILL RESULTARÁ EM BAN! *'
+  - ' '
+
+  Cancelado:
+  - ' '
+  - '&4&lRAGNARÖK &8» &fEvento &cCANCELADO &fpor um administrador.'
+  - ' '
+  
+  Finalizado:
+  - ' '
+  - '&4&lRAGNARÖK &8» &fEvento FINALIZADO com sucesso!'
+  - '&4&lRAGNARÖK &8» &fO(a) jogador(a) que mais matou no evento foi: &c{jogador} &f(&c{kills} kills&f)'
+  - '&4&lRAGNARÖK &8» &fPara ver o TOP kills do evento, use: &c/ragnarok topkills'
+  - ' '
+  
+  Info:
+  - '&4&lRAGNARÖK &8» &fInformações sobre o evento:'
+  - '&7Durante o evento, cada kill será recompensada com um valor com relevancia ao seu rank atual. Veja a seguir:'
+  - ' * &8Membros: &f300 reais;'
+  - ' * &6VIPs: &f500 reais;'
+  - ' * &eMITO: &f1000 reais.'
+  - '&7O evento tem duração indeterminada. &cRagnarök &fé um evento de um contra todos, portando, o fogo amigo é habilitado durante o evento.'
+  - '&7Além das premiações por kill, o(a) jogador(a) que mais tiver kills no evento irá ganhar &f5000 reais &7e a tag &c[RAGNARÖK]&7.'
+  - '&cFazer FREE KILL neste evento poderá resultar em BAN!'
+  
+  SemPermissao: '&4&lRAGNARÖK &8» &cVocê não tem permissão para executar esse comando.'
+  NaoAcontecendo: '&4&lRAGNARÖK &8» &cO evento não está ocorrendo no momento.'
+  JaAcontecendo: '&4&lRAGNARÖK &8» &cO evento já foi iniciado!'
+  Iniciou: '&4&lRAGNARÖK &8» &fVocê iniciou o evento &cRagnarök &fcom sucesso!'
+  Cancelou: '&4&lRAGNARÖK &8» &fVocê cancelou o evento &cRagnarök &fcom sucesso!'
+  Entrou: '&4&lRAGNARÖK &8» &fVocê entrou no evento!'
+  jaParticipando: '&4&lRAGNARÖK &8» &cVocê já está participando do evento.'
+  Finalizou: '&4&lRAGNARÖK &8» &fVocê encerrou o evento &cRagnarök &fcom sucesso!'
+  NaoSetado: '&4&lRAGNARÖK &8» &cUm dos locais do evento não foi definido. Reporte a um administrador.'
+  EntradaDefinida: '&4&lRAGNARÖK &8» &fVocê definiu o local de entrada do evento com sucesso!'
+  SaidaDefinida: '&4&lRAGNARÖK &8» &fVocê definiu o local de saída do evento com sucesso!'
+  GanhouDinheiro: '&4&lRAGNARÖK &8» &fVocê matou &c{vitima} &fe ganhou &c300 reais&f.'
+  BonusVIP: '&4&lRAGNARÖK &8» &fVocê recebeu um bônus de &c200 reais &fpor ser &6VIP&f.'
+  BonusMito: '&4&lRAGNARÖK &8» &fVocê recebeu um bônus de &c500 reais &fpor estar com a tag &4MITO&f.'
+  TotalKills: '&4&lRAGNARÖK &8» &fVocê agora está com &c{kills} kills&f.'
+  LocaisNaoDefinidos: '&4&lRAGNARÖK &8» &cUm dos locais de nascimento não foi definidos. Defina-os antes de iniciar o evento.'
