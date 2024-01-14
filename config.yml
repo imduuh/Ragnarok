@@ -28,6 +28,7 @@ Mensagens:
 
   AjudaAdmin:
   - '&4/ragnarok iniciar &7- &fInicia o evento.'
+  - '&4/ragnarok finalizar &7- &Finaliza o evento.'
   - '&4/ragnarok cancelar &7- &fCancela o evento.'
   - '&4/ragnarok setarena &7- &fDefine a arena que irá acontecer o evento.'
   - '&4/ragnarok setsaida &7- &fDefine a saída do evento.'
