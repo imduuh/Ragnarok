@@ -4,14 +4,14 @@
 
 # Comandos
 
-**/ragnarok iniciar** - Inicia o evento. Este evento não possui nenhuma mensagem de abertura, ou tempo de espera. Assim que o comando é executado, o evento já se inicia.
-**/ragnarok finalizar** - Finaliza o evento. Este evento possui tempo indeterminado de duração, portando, o staff pode finalizar o evento quando quiser.
-**/ragnarok cancelar** - Diferente do comando acima, quando o evento é CANCELADO, não ira aparecer a mensagem de finalização (informando quem mais matou, etc).
-**/ragnarok setarena** - Define o local onde o evento irá acontecer.
-**/ragnarok setsaida** - Define o local de saída do evento.
-**/ragnarok entrar** - Entra no evento.
-**/ragnarok info** - Mostra informações e as recompensas do evento.
-**/ragnarok topkills** - Mostra os jogadores que mais mataram no evento.
+**/ragnarok iniciar** - Inicia o evento. Este evento não possui nenhuma mensagem de abertura, ou tempo de espera. Assim que o comando é executado, o evento já se inicia.<br/>
+**/ragnarok finalizar** - Finaliza o evento. Este evento possui tempo indeterminado de duração, portando, o staff pode finalizar o evento quando quiser.<br/>
+**/ragnarok cancelar** - Diferente do comando acima, quando o evento é CANCELADO, não ira aparecer a mensagem de finalização (informando quem mais matou, etc).<br/>
+**/ragnarok setarena** - Define o local onde o evento irá acontecer.<br/>
+**/ragnarok setsaida** - Define o local de saída do evento.<br/>
+**/ragnarok entrar** - Entra no evento.<br/>
+**/ragnarok info** - Mostra informações e as recompensas do evento.<br/>
+**/ragnarok topkills** - Mostra os jogadores que mais mataram no evento.<br/>
 
 # Vídeo demonstrativo
 
